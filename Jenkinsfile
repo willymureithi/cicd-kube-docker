@@ -7,7 +7,7 @@ pipeline {
     }
 */
     environment {
-        registry = "willymureithi/vprofileapp"
+        registry = "imranvisualpath/vproappdock"
         registryCredential = 'dockerhub'
     }
 
@@ -56,7 +56,7 @@ pipeline {
               }
             }
         }
-        
+
         stage('Deploy Image') {
           steps{
             script {
